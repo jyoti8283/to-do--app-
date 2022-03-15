@@ -7,7 +7,7 @@ body{
     display: grid;
     place-items: center;
 }
-h1{
+header{
     margin: 20px auto;
     font-size: 50px;
     font-weight: 600;
@@ -24,7 +24,7 @@ h1{
 #inputfield{
     width: 282px;
     height: 40px;
-    margin: 5px 2px;
+    margin: 7px 2px;
     border-radius: 0.6rem;
     outline: none;
     border: 1px solid black;
@@ -34,8 +34,9 @@ h1{
 #addtoo{
     height: 41px;
     width: 44px;
-    font-size: 20px;
+    /* font-size: 20px; */
     /* border: 1px solid black; */
+    margin-top: 5px;
     border-radius: 0.6rem;
     background-color: #fff;
 
@@ -51,5 +52,21 @@ h1{
     margin-right:10px;
     cursor: pointer;
     font-size: 30px;
+    
+}
+#clear{
+margin-top: 250px;
+margin-left: 245px;
+margin-bottom:40px;
+height: 40px;
+width: 90px;
+border-radius: 0.6rem; 
+ background-color: #fff;
+ position: fixed;
+ font-size: 20px;
+}
+#clear:hover{
+    background-color: rgb(42, 178, 231);
+
     
 }
