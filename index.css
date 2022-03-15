@@ -1,72 +1,65 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgba(158, 247, 247,0.8);
-    display: grid;
-    place-items: center;
+body {
+  background-color: rgba(158, 247, 247, 0.8);
+  display: grid;
+  place-items: center;
 }
-header{
-    margin: 20px auto;
-    font-size: 50px;
-    font-weight: 600;
+header {
+  margin: 20px auto;
+  font-size: 50px;
+  font-weight: 600;
 }
-.container{
-    width: 340px;
-    height: 400px;
-    
-    background-color: rgb(124, 202, 226);
-    box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
-    border-radius: 0.6rem;
+.container {
+  width: 340px;
+  height: 450px;
 
+  background-color: rgb(124, 202, 226);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.6rem;
 }
-#inputfield{
-    width: 282px;
-    height: 40px;
-    margin: 7px 2px;
-    border-radius: 0.6rem;
-    outline: none;
-    border: 1px solid black;
-    background-color: #fff;
-
+#inputfield {
+  width: 282px;
+  height: 40px;
+  margin: 7px 2px;
+  border-radius: 0.6rem;
+  outline: none;
+  border: 1px solid black;
+  background-color: #fff;
 }
-#addtoo{
-    height: 41px;
-    width: 44px;
-    /* font-size: 20px; */
-    /* border: 1px solid black; */
-    margin-top: 5px;
-    border-radius: 0.6rem;
-    background-color: #fff;
-
+#addtoo {
+  height: 41px;
+  width: 44px;
+  /* font-size: 20px; */
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  border-radius: 0.6rem;
+  background-color: #fff;
 }
-#addtoo:hover{
-    background-color: rgb(42, 178, 231);
+#addtoo:hover {
+  background-color: rgb(42, 178, 231);
 }
-.to-dos{
-    margin-top: 25px;
-
+.to-dos {
+  margin-top: 25px;
 }
-.paragraph-styling{
-    margin-right:10px;
-    cursor: pointer;
-    font-size: 30px;
-    
+.paragraph-styling {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 15px;
 }
-#clear{
-margin-top: 250px;
-margin-left: 245px;
-margin-bottom:40px;
-height: 40px;
-width: 90px;
-border-radius: 0.6rem; 
- background-color: #fff;
- position: fixed;
- font-size: 20px;
+#clear {
+  margin-top: 230px;
+  margin-left: 245px;
+  /* margin-bottom:40px; */
+  height: 40px;
+  width: 90px;
+  border-radius: 0.6rem;
+  background-color: #fff;
+  /* position: sticky; */
+  font-size: 20px;
 }
-#clear:hover{
-    background-color: rgb(42, 178, 231);
-
-    
+#clear:hover {
+  background-color: rgb(42, 178, 231);
 }
