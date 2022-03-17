@@ -5,6 +5,7 @@ let addToclearButton = document.getElementById("clear");
 
 addToButton.addEventListener("click", function () {
   var paragragh = document.createElement("p");
+
   paragragh.classList.add("paragraph-styling");
   paragragh.innerText = inputfeild.value;
   toDoContainer.appendChild(paragragh);
@@ -14,8 +15,9 @@ addToButton.addEventListener("click", function () {
     paragragh.contentEditable = true;
   });
 
-  //  paragragh.addEventListener('click', function(){
+  //  paragragh.addEventListener('dblclick', function(){
   // toDoContainer.removeChild(paragragh);
+  //  });
 
   addToclearButton.addEventListener("click", function () {
     toDoContainer.removeChild(paragragh);
