@@ -10,11 +10,19 @@
   <body>
     <header>To Do List</header>
     <div class="container">
-      <input id="inputfield" type="text" placeholder="Type here" />
-      <button id="addtoo">Add to do</button>
+      <ul>
+        <li class="liHead">
+         <h4> Start Your ToDo List </h4>
+        </li>
+        <li class="inputArea">
+          <input id="inputfield" type="text" placeholder="Type here..." />
+        </li>
+        <li>
+          <button id="addtoo">Add to do</button>
+          <button id="clear">clear all</button>
+        </li>
+      </ul>
       <div class="to-dos" id="toDoContainer"></div>
-
-      <button id="clear">clear all</button>
     </div>
     <script src="index.js"></script>
   </body>

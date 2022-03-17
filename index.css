@@ -14,13 +14,15 @@ header {
 }
 .container {
   width: 340px;
-  height: 450px;
-
+  /* height: 400px; */
+  padding: 5%;
   background-color: rgb(124, 202, 226);
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 0.6rem;
+  height: max-content;
 }
 #inputfield {
+  padding: 0px 0px 0px 12px;
   width: 282px;
   height: 40px;
   margin: 7px 2px;
@@ -30,13 +32,17 @@ header {
   background-color: #fff;
 }
 #addtoo {
-  height: 41px;
-  width: 44px;
-  /* font-size: 20px; */
-  /* border: 1px solid black; */
-  margin-top: 5px;
-  border-radius: 0.6rem;
-  background-color: #fff;
+  letter-spacing: 1px;
+  border-style: none;
+  padding: 12px;
+  font-size: 16px;
+  font-family: timesNewRoman;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px;
+  color: #ffff;
+  background-color: #348d8b;
+  width: 7rem;
 }
 #addtoo:hover {
   background-color: rgb(42, 178, 231);
@@ -49,16 +55,35 @@ header {
   cursor: pointer;
   font-size: 15px;
 }
+ul{
+  list-style-type: none;
+}
+li{
+  display: flex;
+  justify-content: center;
+}
+.liHead{
+  font-size: 23px;
+  color: #ab3737bf;
+}
 #clear {
-  margin-top: 230px;
-  margin-left: 245px;
-  /* margin-bottom:40px; */
-  height: 40px;
-  width: 90px;
-  border-radius: 0.6rem;
-  background-color: #fff;
-  /* position: sticky; */
-  font-size: 20px;
+  letter-spacing: 1px;
+  border-style: none;
+  padding: 12px;
+  font-size: 16px;
+  font-family: timesNewRoman;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 5px;
+  color: #ffff;
+  background-color: #348d8b;
+  width: 7rem;
+}
+.clearAll{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 50%;
 }
 #clear:hover {
   background-color: rgb(42, 178, 231);
